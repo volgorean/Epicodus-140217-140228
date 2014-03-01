@@ -1,0 +1,27 @@
+body {
+  background-color: ;
+}
+td {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  color: gray;
+  font-size: 50px;
+}
+td:hover {
+  background-color: black;
+  opacity: 0.25;
+}
+
+.container {
+ width: 300px;
+}
+
+#gameboard {
+  height: 300px;
+}
+
+#scoreboard {
+  display: none;
+}

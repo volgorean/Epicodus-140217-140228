@@ -1,0 +1,27 @@
+#result {
+  display: none;
+}
+
+.huge {
+  font-size: 55px;
+  font-style: bold;
+}
+
+.biggest {
+  font-size: 45px;
+  font-style: bold;
+}
+
+.bigger {
+  font-size: 35px;
+  font-style: bold;
+}
+
+.big {
+  font-size: 25px;
+  font-style: bold;
+}
+
+body {
+  background-color: #6BC5E8;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Which triangle is which?</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Shmiangle</h1>
+
+      <form id="triangles">
+        <div class="form-group">
+          <label for="side1">Enter side 1 length</label>
+          <input id="side1" type="text">
+        </div>
+
+      
+        <div class="form-group">
+          <label for="side2">Enter side 2 length</label>
+          <input id="side2" type="text">
+        </div>
+
+      
+        <div class="form-group">
+          <label for="side3">Enter side 3 length</label>
+          <input id="side3" type="text">
+        </div>
+
+
+        <button type="submit" class="btn">Find out!</button>
+      </form>
+
+      <div id="result">
+        <p>Your Triangle is a<span class="output"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
